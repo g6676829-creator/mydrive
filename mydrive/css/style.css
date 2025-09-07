@@ -1,0 +1,46 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Raleway", serif;
+  	font-optical-sizing: auto;
+  	font-weight: 500;
+  	font-style: normal;
+}
+.bold{
+	font-weight: 700;
+}
+*:focus{
+	box-shadow: none !important;
+}
+body{
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.signupFrm,.verFrm, .loginFrm{
+	backdrop-filter: blur(15px);
+	background-color: rgba(255, 255, 255, 0.3);
+	box-shadow: 0px 0px 10px #fff;
+	padding: 20px;
+	color: #fff;
+}
+
+.signupFrm h1,.verFrm h1, .loginFrm h1{
+	font-size: 28px;
+}
+.pswFrmGroup,.email_con{
+	position: relative;
+}
+.eyeIcon,.emailLoader{
+	color: #bbb;
+	position: absolute;
+	top: 44px;
+	right: 20px;
+	cursor: pointer;
+}
